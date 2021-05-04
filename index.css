@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 0% 2%;
+    margin: 0;
+}
+
+main {
+    min-height: 75vh;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #00458B;
+}
+
+li {
+    list-style-type: kannada;
+    margin-bottom: .5rem;
+}
+
+#page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-header h3 {
+    font: bold calc(1em + (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+}
