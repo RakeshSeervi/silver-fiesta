@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 0% 2%;
+    margin: 0;
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+}
+
+aside {
+    box-shadow: inset 5px 0 5px -5px #95353A;
+    font-style: italic;
+    color: #95353A;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-header h3 {
+    font: bold calc(1em + (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+}
+
+.tag::after {
+    content: ">";
+    display: inline-block;
+}
+
+.tag::before {
+    content: "<";
+    display: inline-block;
+}
+
+.element {
+    margin: 1.5rem;
+    padding: .3rem;
+    background-color: white;
+    color: #212121;
+    border-radius: 8px;
+    width: 29%;
+}
+
+@media only screen and (min-width:700px) and (max-width: 900px){
+    .element {
+         width: 42%;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width: 576px){
+    .element {
+         width: 100%;
+    }
+}
+
+.element > h3,
+.element > section {
+    margin: 1.2rem;
+}
