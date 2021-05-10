@@ -1,0 +1,38 @@
+th, td {
+    padding: 8px;
+    border: solid 1px black;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    color: black;
+    border-radius: 8px;
+    border-collapse: collapse;
+    position: relative;
+    top: 20vh;
+    overflow: hidden;
+}
+
+div {
+    width: 100%;
+    height: 50vh;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fec5bb
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fcd5ce
+}
+
+.time {
+    background-color: #d8e2dc
+}
+
+tr:hover{
+    border: solid  4px black;
+}
