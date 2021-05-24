@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #2d2d2d;
     color: white;
     padding: 0% 2%;
     margin: 0;
@@ -18,7 +18,7 @@ footer {
 
 a {
     text-decoration: none;
-    color: #ee6c4d;
+    color: #f48024;
 }
 
 li {

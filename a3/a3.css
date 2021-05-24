@@ -1,0 +1,96 @@
+fieldset, button, select, input[type="file"]{
+    margin-bottom: 32px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="number"], textarea{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    outline: 0;
+    width: 32vw;
+}
+
+@media only screen and (min-width:700px) and (max-width: 900px){
+    input[type="text"], input[type="number"], textarea{
+         width: 50vw;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width: 576px){
+    input[type="text"], input[type="number"], textarea {
+        width: 75vw;
+    }
+}
+
+button:hover{
+    color: #2d2d2d;
+    background-color: #f48024;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+fieldset{
+    border-radius: 8px;
+    width: max-content;
+}
+
+p {
+    font-size: x-large;
+}
+
+div {
+    width: max-content;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* for case 1 and 2 */
+
+/*input[type="text"]{
+    position: relative;
+    top: 48px;
+    left: 16px;
+    width: 88%;
+}
+fieldset{
+    padding-bottom: 32px;  
+}
+.customInput {
+    width: max-content;
+}*/
+
+/* Sibling [case 1]*/
+input[type="text"]:focus + fieldset{
+    color: #ee6c4d;
+    border-color: #ee6c4d;
+}
+
+/* focus focus [case 2]*/
+fieldset:focus{
+    color: #ee6c4d;
+    border-color: #ee6c4d;  
+}
+
+/* magic */
+fieldset:focus-within{
+    color: #f48024;
+    border-color: #f48024;  
+}
