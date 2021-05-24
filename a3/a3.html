@@ -13,83 +13,83 @@
     </header>
     <main align="center">
         <div>
-                <form action="" method="post">
-                    <header><p>Project Details</p></header>
-                    <!--<label for=""></label>
-                    <input type="" name="" required>-->
-                    
-        <!--             sibling [case 1] -->
-                    <!--<div class="customInput">
-                        <input type="text" name="usn" placeholder="Enter your USN">
-                        <fieldset>
-                            <legend>USN</legend>
-                        </fieldset>
-                    </div>-->
-                    
-        <!--             focus focus [case 2]-->
-                    <!--<div class="customInput">
-                        <input type="text" name="usn" placeholder="Enter your USN">
-                        <fieldset tabindex="0">
-                            <legend>USN</legend>
-                        </fieldset>
-                    </div>-->
-                    
-        <!--             magic -->
+            <form action="#" method="post" onsubmit="return false">
+                <header><p>Project Details</p></header>
+                <!--<label for=""></label>
+                <input type="" name="" required>-->
+                
+    <!--             sibling [case 1] -->
+                <!--<div class="customInput">
+                    <input type="text" name="usn" placeholder="Enter your USN">
                     <fieldset>
                         <legend>USN</legend>
-                        <input type="text" name="usn" placeholder="Enter your usn" minlength="10" maxlength="10" required>
                     </fieldset>
-                    <fieldset>
-                        <legend>Project title</legend>
-                        <input type="text" name="title" placeholder="Enter the title" required>
+                </div>-->
+                
+    <!--             focus focus [case 2]-->
+                <!--<div class="customInput">
+                    <input type="text" name="usn" placeholder="Enter your USN">
+                    <fieldset tabindex="0">
+                        <legend>USN</legend>
                     </fieldset>
-                    <label for="project-domain-select">Project domain</label>
-                    <select id="project-domain-select" placeholder="Choose your project domain">
-                        <optgroup label="Computer Science">
-                            <option value="Artificial Intelligence">Artificial Intelligence</option>
-                            <option value="Web Development">Web Development</option>
-                            <option value="Data Science">Data Science</option>
-                            <option value="Cloud Computing">Cloud Computing</option>
-                            <option value="Machine Learning">Machine Learning</option>
-                            <option value="Mobile app development">Mobile app development</option>
-                        </optgroup>
-                        <optgroup label="Electronics">
-                            <option value="Embedded Systems">Embedded Systems</option>
-                            <option value="Robotics">Robotics</option>
-                            <option value="Internet of Things (IOT)">Internet of Things (IOT)</option>
-                            <option value="Mechatronics">Mechatronics</option>
-                            <option value="Wearable Technologies">Wearable Technologies</option>
-                        </optgroup>
-                        <optgroup label="Civil">
-                            <option value="Construction and Management">Construction and Management</option>
-                            <option value="Geotechnical">Geotechnical</option>
-                            <option value="Structural">Structural</option>
-                            <option value="Transport">Transport</option>
-                            <option value="Water">Water</option>
-                        </optgroup>
-                        <optgroup label="Mechanical">
-                            <option value="Thermal">Thermal</option>
-                            <option value="Hydraulics">Hydraulics</option>
-                            <option value="Pneumatics">Pneumatics</option>
-                            <option value="Structural analysis">Structural analysis</option>
-                        </optgroup>
-                    </select>
-        <!--             <label for="project-desc">Project description</label> -->
-                    <fieldset>
-                        <legend>Project Description</legend>
-                        <textarea id="project-desc" placeholder="Describe your project here" rows="3" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Number of hours</legend>
-                        <input type="number" name="no-of-hours" placeholder="Enter the number of hours" min="8" max="40" required>
-                    </fieldset>
-                    <label for="project-doc">Upload the project document</label>
-                    <input type="file" id="project-doc" required>
-                    <br>
-                    <button class="styled">Submit</button>
-                    <button type="reset">Reset</button>
-                </form>
-            </div>
+                </div>-->
+                
+    <!--             magic -->
+                <fieldset>
+                    <legend>USN</legend>
+                    <input type="text" name="usn" placeholder="Enter your usn" minlength="10" maxlength="10" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Project title</legend>
+                    <input type="text" name="title" placeholder="Enter the title" required>
+                </fieldset>
+                <label for="project-domain-select">Project domain</label>
+                <select id="project-domain-select" placeholder="Choose your project domain">
+                    <optgroup label="Computer Science">
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Cloud Computing">Cloud Computing</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                        <option value="Mobile app development">Mobile app development</option>
+                    </optgroup>
+                    <optgroup label="Electronics">
+                        <option value="Embedded Systems">Embedded Systems</option>
+                        <option value="Robotics">Robotics</option>
+                        <option value="Internet of Things (IOT)">Internet of Things (IOT)</option>
+                        <option value="Mechatronics">Mechatronics</option>
+                        <option value="Wearable Technologies">Wearable Technologies</option>
+                    </optgroup>
+                    <optgroup label="Civil">
+                        <option value="Construction and Management">Construction and Management</option>
+                        <option value="Geotechnical">Geotechnical</option>
+                        <option value="Structural">Structural</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Water">Water</option>
+                    </optgroup>
+                    <optgroup label="Mechanical">
+                        <option value="Thermal">Thermal</option>
+                        <option value="Hydraulics">Hydraulics</option>
+                        <option value="Pneumatics">Pneumatics</option>
+                        <option value="Structural analysis">Structural analysis</option>
+                    </optgroup>
+                </select>
+    <!--             <label for="project-desc">Project description</label> -->
+                <fieldset>
+                    <legend>Project Description</legend>
+                    <textarea id="project-desc" placeholder="Describe your project here" rows="3" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Number of hours</legend>
+                    <input type="number" name="no-of-hours" placeholder="Enter the number of hours" min="8" max="40" required>
+                </fieldset>
+                <label for="project-doc">Upload the project document</label>
+                <input type="file" id="project-doc" required>
+                <br>
+                <button onClick="location.href='../index.html'">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
     </main>
     <footer>
         <p>© 2021 Rakesh</p>
