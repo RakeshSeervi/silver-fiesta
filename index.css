@@ -27,10 +27,12 @@ li {
 }
 
 #page-header {
-    display: flex;
-    justify-content: space-between;
+/*     display: flex; */
+/*     justify-content: space-between; */
 }
 
 #page-header h3 {
+    width: max-content;
+    display: inline-block;
     font: bold calc(1em + (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
 }

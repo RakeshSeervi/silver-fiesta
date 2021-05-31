@@ -1,5 +1,6 @@
 nav {
     display: flex;
+    float: right;
 }
 
 aside {
@@ -42,7 +43,7 @@ aside > p {
          width: 100%;
     }
     #navLink2 {
-        display: none;
+        display: none !important;
     }
 }
 
